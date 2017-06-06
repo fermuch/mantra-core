@@ -12,7 +12,7 @@ declare type IOnData = (
 
 declare module "mantra-core" {
   interface IKomposer {
-    (params: Object, onData: Function): Function;
+    (params: Object, onData: IOnData): Function;
   }
 
   interface IKomposerData<T> {
