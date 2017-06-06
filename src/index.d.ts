@@ -5,6 +5,11 @@ declare module "react-mounter" {
   export var withOptions: any;
 }
 
+declare type IOnData = (
+  err?: Error | string,
+  render?: any,
+) => void
+
 declare module "mantra-core" {
   interface IKomposer {
     (params: Object, onData: Function): Function;
