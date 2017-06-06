@@ -1,4 +1,4 @@
-import React = __React;
+import React = require('react');
 
 declare module "react-mounter" {
   export var mount: any;
