@@ -1,5 +1,5 @@
 {
-  "name": "mantra-core",
+  "name": "@fermuch/mantra-core",
   "version": "1.6.2",
   "description": "Core API for Mantra",
   "repository": {
