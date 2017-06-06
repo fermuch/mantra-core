@@ -13,7 +13,6 @@
   },
   "scripts": {
     "prepublish": ". ./scripts/prepublish.sh",
-    "preinstall": "npm run prepublish",
     "lint": "eslint ./src",
     "lintfix": "eslint ./src --fix",
     "testonly": "mocha $npm_package_options_mocha",
