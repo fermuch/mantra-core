@@ -10,7 +10,7 @@ declare type IOnData = (
   render?: any,
 ) => void
 
-declare module "mantra-core" {
+declare module "@fermuch/mantra-core" {
   interface IKomposer {
     (params: Object, onData: IOnData): Function | void;
   }

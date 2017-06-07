@@ -1,6 +1,6 @@
 {
   "name": "@fermuch/mantra-core",
-  "version": "1.6.3",
+  "version": "1.6.4",
   "description": "Core API for Mantra",
   "repository": {
     "type": "git",
